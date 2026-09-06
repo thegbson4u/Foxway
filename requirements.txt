@@ -1,0 +1,36 @@
+# Backend
+fastapi
+uvicorn
+
+# Frontend
+streamlit
+
+# Document Processing
+pymupdf
+
+# NLP
+spacy
+transformers
+sentence-transformers
+
+# LLM
+openai
+google-generativeai
+
+# Validation
+pydantic
+pydantic-settings
+
+# Database
+psycopg2-binary
+pgvector
+
+# Visualization
+plotly
+
+# Environment
+python-dotenv
+
+# Testing
+pytest
+httpx

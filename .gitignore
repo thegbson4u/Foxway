@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment variables
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data
+data/raw/*
+data/processed/*
+data/extracted/*
+data/chunks/*
+
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/extracted/.gitkeep
+!data/chunks/.gitkeep
+
+# Models
+models/*
+!models/.gitkeep
+
+*.pt
+*.pth
+*.bin
+*.onnx
+*.safetensors
+
+# Logs
+logs/*
+!logs/.gitkeep
+*.log
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build
+dist/
+build/
+*.egg-info/
+
+# OS
+.DS_Store
+Thumbs.db
